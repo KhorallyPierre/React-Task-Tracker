@@ -2,15 +2,12 @@ import PropTypes from 'prop-types'
 import Button from './Button'
 // this is where all of our compoennets are created (uppercase is used for component js files)
 
-const Header = ({title}) => {
-  const onClick = () => {
-    console.log('Click')
-  }
+const Header = ({title, onAdd, showAdd }) => {
   return (
 
     <header className ='header'>
       <h1> {title}</h1>
-      <Button color='green' text='Add' onClick = {onClick}/>
+      <Button color={showAdd ? 'purple' : 'orange'} text={showAdd ? 'Collapse' : 'Add'} onClick = {onAdd}/>
     </header>
 
 

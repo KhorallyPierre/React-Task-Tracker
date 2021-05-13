@@ -14,6 +14,12 @@ Runs the app in the development mode.
 
 5/12/21 - There are multiple ways to imbed styling. It can be done inline, and it can also be done by declaring const headingStyle property.
 
+5/13/21 - I learned how to remove tasks from the to-do list using React. I also learned that  '&&' is a shorter way of using a ternary expression for conditionals
+
+React also makes it so that you can create dynamic interfaces without having to reload the page (on the second click, 'Collapse' changes to 'Add' and this is accomplished by embedded JavaScript and a conditional)
+
+I was able to learn how to build for production by installing the -g server and deploying the build folder. This static server becomes the deployed version, I think. 
+
 
 
 ![screenshot](background2.jpg)
